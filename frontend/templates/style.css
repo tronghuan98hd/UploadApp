@@ -1,0 +1,125 @@
+  /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+  .row.content {height: 634px}
+    
+  /* Set gray background color and 100% height */
+  .sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .sidenavright {
+      background-color: white;
+      height: 100%;
+  }
+  .nav {
+    height: 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  #myFile {
+      padding-top: 15px;
+      position: relative;
+      display: flex;
+      padding-bottom: 10px;
+  }
+  
+  .item {
+      
+      margin: 10px 0;
+      width: 100%;
+      height: 450px;
+      position: relative;
+      text-align: center;
+      overflow: auto;
+  }
+  .frame_inner {
+      position: relative;
+  }
+  .btn-default {
+      width: 100%;
+  }
+  .product_image {
+      margin-top: 10px;
+      /* position: relative; */
+  }
+  .frame_inner_right {
+      position: relative;
+      text-align: center;
+      margin-top: 80px;
+  }
+  .container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .sidenavright {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+  }
+  .img_name {
+    margin-top: 10px;
+  }
+  .img_small {
+    width: 70%;
+   
+  }
+  .img_small:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+  }
+  .img_click {
+    border: 1px solid black;
+  }
+  .btn-close {
+    position: absolute;
+    right: 37px;
+    bottom: 185px;
+    background-color: white;
+    border: white;
+    color: #9b9b9b;
+  }
+  .btn-close:hover {
+  color: black;
+  }
+  
+  /* Set black background color, white text and some padding */
+  body {
+      background-color: #dbdbdb;
+  }
+  header {
+    background-color: #555;
+    color: white;
+    padding: 20px;
+  }
+  
+  table {
+      margin: 15px 0;
+  }
+  td {
+      padding: 0 10px;
+  }
+  
+  button {
+    margin: 30px 0;
+  }
+  
+  /* footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+  } */
+  img {
+      width: 88%;
+      text-align: center;
+      display: inline-block;
+  }
+  
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height: auto;} 
+  }

@@ -1,0 +1,217 @@
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+
+.row.content {
+    height: 634px;
+}
+
+
+/* Set gray background color and 100% height */
+
+.sidenav {
+    background-color: #f1f1f1;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 #868c9c;
+    text-align: center;
+}
+
+
+/* .sidenavright {
+      background-color: white;
+      height: 100%;
+  } */
+
+.nav {
+    height: 50px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px 0 #868c9c;
+    text-align: center;
+}
+
+
+/* #myFile {
+      padding-top: 15px;
+      position: relative;
+      display: flex;
+      padding-bottom: 10px;
+  } */
+
+.item {
+    margin: 5px 0;
+    width: 100%;
+    height: 440px;
+    position: relative;
+    text-align: center;
+    overflow: auto;
+    scrollbar-color: #0e4f9e #bae3ff !important;
+    scrollbar-width: thin !important;
+}
+
+.item::-webkit-scrollbar {
+    width: 6px;
+    background-color: #bae3ff;
+}
+
+.item::-webkit-scrollbar-thumb {
+    background-color: #0e4f9e;
+}
+
+.item::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: #bae3ff;
+}
+
+.frame_inner {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.btn-success {
+    width: 80%;
+    margin: 10px 0;
+}
+
+.product_image {
+    margin-top: 10px;
+    /* height: 501px; */
+    /* position: relative; */
+}
+
+.frame_inner_right {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container {
+    box-shadow: 0 4px 8px 0 #868c9c;
+    text-align: center;
+}
+
+.sidenavright {
+    box-shadow: inset 0 0 7px #868c9c;
+    text-align: center;
+    margin-top: 5px;
+    height: 570px;
+    overflow-x: auto;
+    scrollbar-color: #0e4f9e #bae3ff !important;
+}
+
+.sidenavright::-webkit-scrollbar {
+    height: 10px;
+    background-color: #bae3ff;
+}
+
+.sidenavright::-webkit-scrollbar-thumb {
+    background-color: #0e4f9e;
+}
+
+.sidenavright::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+    background-color: #bae3ff;
+}
+
+.img_name {
+    text-align: center;
+    /* width: 250px; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.img_small {
+    width: 70%;
+}
+
+.img_small:hover {
+    box-shadow: 0 4px 8px 0 #868c9c;
+}
+
+.btn-close {
+    margin: 4px 32px;
+    position: absolute;
+    /* right: 37px;
+      bottom: 185px; */
+    background-color: white;
+    border: white;
+    color: #9b9b9b;
+}
+
+.btn-close:hover {
+    color: black;
+}
+
+
+/* Set black background color, white text and some padding */
+
+#header {
+    background-color: #1ca4ff;
+    color: white;
+    padding: 11px 10px 10px 25px;
+    font: 22px "helveticaneue";
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+}
+
+.large-preview {
+    max-height: 560px;
+    position: relative;
+    padding-top: 5px;
+}
+
+#selectedFiles img {
+    max-width: 125px;
+    /* max-height: 125px; */
+    margin-bottom: 10px;
+    text-align: center;
+    display: inline-block;
+}
+
+.custom-select {
+    width: 120px;
+    margin-left: 15px;
+    font: 14px "helveticaneue";
+}
+
+.option {
+    margin-top: 8px;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.btn-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+
+.icon-submit {
+    margin: 14px 0px 0px -20px;
+}
+
+.smooth-image {
+    transition: opacity 1s;
+}
