@@ -1,0 +1,791 @@
+{
+    "events": [{
+            "event": "action",
+            "timestamp": 1622182679.420513,
+            "name": "action_session_start",
+            "policy": null,
+            "confidence": 1.0,
+            "action_text": null
+        },
+        {
+            "event": "session_started",
+            "timestamp": 1622182679.420513
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182679.4215088,
+            "name": "action_listen",
+            "policy": null,
+            "confidence": null,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182680.1100273,
+            "text": "xin ch\u00e0o",
+            "parse_data": {
+                "intent": {
+                    "id": -2675763273683173537,
+                    "name": "greet",
+                    "confidence": 0.9998712539672852
+                },
+                "entities": [],
+                "text": "xin ch\u00e0o",
+                "message_id": "c1fdfbf55a804cbaa8eed301d94b3bde",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": -2675763273683173537,
+                        "name": "greet",
+                        "confidence": 0.9998712539672852
+                    },
+                    {
+                        "id": -8632095042473597458,
+                        "name": "ask_whatismyname",
+                        "confidence": 3.2604835723759606e-05
+                    },
+                    {
+                        "id": -8302283180516638916,
+                        "name": "affirm",
+                        "confidence": 3.199152342858724e-05
+                    },
+                    {
+                        "id": 3026354031919519591,
+                        "name": "thankyou",
+                        "confidence": 1.889537088572979e-05
+                    },
+                    {
+                        "id": -2896433287328471382,
+                        "name": "ask_time",
+                        "confidence": 1.7645374100538902e-05
+                    },
+                    {
+                        "id": -1011601470156862888,
+                        "name": "ask_for_room_info",
+                        "confidence": 1.017311751638772e-05
+                    },
+                    {
+                        "id": 5555596833079094622,
+                        "name": "mood_great",
+                        "confidence": 7.76424894866068e-06
+                    },
+                    {
+                        "id": -5351342676653972623,
+                        "name": "ask_for_numberofpeople",
+                        "confidence": 6.56170323054539e-06
+                    },
+                    {
+                        "id": 1864375331229343710,
+                        "name": "ask_for_bot_name",
+                        "confidence": 1.9845651877403725e-06
+                    },
+                    {
+                        "id": -4291208820530903513,
+                        "name": "ask_for_the_weather",
+                        "confidence": 1.1356938784956583e-06
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "c1fdfbf55a804cbaa8eed301d94b3bde",
+            "metadata": {}
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182680.1200275,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182680.1200275,
+            "name": "utter_greet",
+            "policy": "policy_0_MemoizationPolicy",
+            "confidence": 1.0,
+            "action_text": null
+        },
+        {
+            "event": "bot",
+            "timestamp": 1622182680.1200275,
+            "metadata": {
+                "template_name": "utter_greet"
+            },
+            "text": "Ch\u00e0o m\u1eebng anh ch\u1ecb \u0111\u00e3 s\u1eed d\u1ee5ng d\u1ecbch v\u1ee5. Anh ch\u1ecb mu\u1ed1n tra c\u1ee9u th\u00f4ng tin g\u00ec \u1ea1?",
+            "data": {
+                "elements": null,
+                "quick_replies": null,
+                "buttons": null,
+                "attachment": null,
+                "image": null,
+                "custom": null
+            }
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182681.4905088,
+            "name": "action_listen",
+            "policy": "policy_0_MemoizationPolicy",
+            "confidence": 1.0,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182691.3515632,
+            "text": "m\u00ecnh mu\u1ed1n t\u00ecm kh\u00e1ch s\u1ea1n",
+            "parse_data": {
+                "intent": {
+                    "id": 6595916742096916130,
+                    "name": "ask_for_find_hotel",
+                    "confidence": 0.9999144077301025
+                },
+                "entities": [],
+                "text": "m\u00ecnh mu\u1ed1n t\u00ecm kh\u00e1ch s\u1ea1n",
+                "message_id": "eda4055ec0104eb9a893e88c38834551",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": 6595916742096916130,
+                        "name": "ask_for_find_hotel",
+                        "confidence": 0.9999144077301025
+                    },
+                    {
+                        "id": -5076515300045452574,
+                        "name": "ask_for_price_to_find_hotel",
+                        "confidence": 4.471372812986374e-05
+                    },
+                    {
+                        "id": 8188057451973873699,
+                        "name": "ask_is_human",
+                        "confidence": 9.229628631146625e-06
+                    },
+                    {
+                        "id": -4291208820530903513,
+                        "name": "ask_for_the_weather",
+                        "confidence": 7.75228090788005e-06
+                    },
+                    {
+                        "id": 1533944505888794554,
+                        "name": "ask_haha",
+                        "confidence": 6.660893632215448e-06
+                    },
+                    {
+                        "id": 3459102650096164901,
+                        "name": "mood_unhappy",
+                        "confidence": 6.43034172753687e-06
+                    },
+                    {
+                        "id": -3700746233692505104,
+                        "name": "goodbye",
+                        "confidence": 3.928656497009797e-06
+                    },
+                    {
+                        "id": 1864375331229343710,
+                        "name": "ask_for_bot_name",
+                        "confidence": 3.021504653588636e-06
+                    },
+                    {
+                        "id": 1477123013048807469,
+                        "name": "decry",
+                        "confidence": 2.0568197669490473e-06
+                    },
+                    {
+                        "id": -5351342676653972623,
+                        "name": "ask_for_numberofpeople",
+                        "confidence": 1.7104860035033198e-06
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "eda4055ec0104eb9a893e88c38834551",
+            "metadata": {}
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182691.3814662,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182691.3814662,
+            "name": "utter_ask_for_province",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9866028428077698,
+            "action_text": null
+        },
+        {
+            "event": "bot",
+            "timestamp": 1622182691.3814662,
+            "metadata": {
+                "template_name": "utter_ask_for_province"
+            },
+            "text": "Anh ch\u1ecb mu\u1ed1n t\u00ecm ki\u1ebfm kh\u00e1ch s\u1ea1n \u1edf t\u1ec9nh th\u00e0nh ph\u1ed1 n\u00e0o \u1ea1?",
+            "data": {
+                "elements": null,
+                "quick_replies": null,
+                "buttons": null,
+                "attachment": null,
+                "image": null,
+                "custom": null
+            }
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182692.1668367,
+            "name": "action_listen",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.999900221824646,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182710.3126953,
+            "text": "\u1edf h\u00e0 n\u1ed9i",
+            "parse_data": {
+                "intent": {
+                    "id": -4096624326552043354,
+                    "name": "ask_for_province_to_find_hotel",
+                    "confidence": 0.9999686479568481
+                },
+                "entities": [{
+                    "entity": "province",
+                    "start": 2,
+                    "end": 8,
+                    "confidence_entity": 0.9998149275779724,
+                    "value": "h\u00e0 n\u1ed9i",
+                    "extractor": "DIETClassifier"
+                }],
+                "text": "\u1edf h\u00e0 n\u1ed9i",
+                "message_id": "8870c37ec0e549718d4c914f2ccc57e6",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": -4096624326552043354,
+                        "name": "ask_for_province_to_find_hotel",
+                        "confidence": 0.9999686479568481
+                    },
+                    {
+                        "id": 711580037153277927,
+                        "name": "praise",
+                        "confidence": 1.9351251467014663e-05
+                    },
+                    {
+                        "id": 3459102650096164901,
+                        "name": "mood_unhappy",
+                        "confidence": 5.017281637265114e-06
+                    },
+                    {
+                        "id": -8302283180516638916,
+                        "name": "affirm",
+                        "confidence": 2.464234285071143e-06
+                    },
+                    {
+                        "id": 2079026735929978387,
+                        "name": "ask_howdoing",
+                        "confidence": 1.3654945405505714e-06
+                    },
+                    {
+                        "id": 631612725944214518,
+                        "name": "ask_for_who_made_bot",
+                        "confidence": 1.1443470384620014e-06
+                    },
+                    {
+                        "id": -4003085066981842894,
+                        "name": "ask_for_location_to_find_hotel",
+                        "confidence": 8.334588414982136e-07
+                    },
+                    {
+                        "id": -5076515300045452574,
+                        "name": "ask_for_price_to_find_hotel",
+                        "confidence": 6.735871806995419e-07
+                    },
+                    {
+                        "id": 6415907642436638173,
+                        "name": "deny",
+                        "confidence": 2.5097293132603227e-07
+                    },
+                    {
+                        "id": 6595916742096916130,
+                        "name": "ask_for_find_hotel",
+                        "confidence": 2.365668194670434e-07
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "8870c37ec0e549718d4c914f2ccc57e6",
+            "metadata": {}
+        },
+        {
+            "event": "slot",
+            "timestamp": 1622182710.3126953,
+            "name": "province",
+            "value": "h\u00e0 n\u1ed9i"
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182710.3486502,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182710.3486502,
+            "name": "utter_ask_for_location",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9603689908981323,
+            "action_text": null
+        },
+        {
+            "event": "bot",
+            "timestamp": 1622182710.3486502,
+            "metadata": {
+                "template_name": "utter_ask_for_location"
+            },
+            "text": "Anh ch\u1ecb mu\u1ed1n t\u00ecm ki\u1ebfm kh\u00e1ch s\u1ea1n \u1edf g\u1ea7n khu du l\u1ecbch hay \u0111\u1ecba \u0111i\u1ec3m n\u00e0o \u1ea1?",
+            "data": {
+                "elements": null,
+                "quick_replies": null,
+                "buttons": null,
+                "attachment": null,
+                "image": null,
+                "custom": null
+            }
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182711.0106995,
+            "name": "action_listen",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9997861981391907,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182721.0245118,
+            "text": "\u1edf g\u1ea7n h\u1ed3 t\u00e2y",
+            "parse_data": {
+                "intent": {
+                    "id": -4003085066981842894,
+                    "name": "ask_for_location_to_find_hotel",
+                    "confidence": 0.9999948740005493
+                },
+                "entities": [{
+                    "entity": "location",
+                    "start": 6,
+                    "end": 12,
+                    "confidence_entity": 0.9992086291313171,
+                    "value": "h\u1ed3 t\u00e2y",
+                    "extractor": "DIETClassifier"
+                }],
+                "text": "\u1edf g\u1ea7n h\u1ed3 t\u00e2y",
+                "message_id": "85ec0e46026d4d40b4e6488e2aef6a07",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": -4003085066981842894,
+                        "name": "ask_for_location_to_find_hotel",
+                        "confidence": 0.9999948740005493
+                    },
+                    {
+                        "id": -2896433287328471382,
+                        "name": "ask_time",
+                        "confidence": 4.851208359468728e-06
+                    },
+                    {
+                        "id": -1011601470156862888,
+                        "name": "ask_for_room_info",
+                        "confidence": 1.6929830337630847e-07
+                    },
+                    {
+                        "id": 1533944505888794554,
+                        "name": "ask_haha",
+                        "confidence": 6.30556726832765e-08
+                    },
+                    {
+                        "id": -9197639543022866961,
+                        "name": "ask_ability",
+                        "confidence": 3.738148635079597e-08
+                    },
+                    {
+                        "id": -8632095042473597458,
+                        "name": "ask_whatismyname",
+                        "confidence": 1.0710118125700774e-08
+                    },
+                    {
+                        "id": -4096624326552043354,
+                        "name": "ask_for_province_to_find_hotel",
+                        "confidence": 6.909474326022291e-09
+                    },
+                    {
+                        "id": 6415907642436638173,
+                        "name": "deny",
+                        "confidence": 6.765076054904284e-09
+                    },
+                    {
+                        "id": 1864375331229343710,
+                        "name": "ask_for_bot_name",
+                        "confidence": 6.00887517521187e-09
+                    },
+                    {
+                        "id": -2675763273683173537,
+                        "name": "greet",
+                        "confidence": 4.207266535161125e-09
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "85ec0e46026d4d40b4e6488e2aef6a07",
+            "metadata": {}
+        },
+        {
+            "event": "slot",
+            "timestamp": 1622182721.0245118,
+            "name": "location",
+            "value": "h\u1ed3 t\u00e2y"
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182725.4206154,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182725.4206154,
+            "name": "action_get_hotel_location_info",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9980970025062561,
+            "action_text": null
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182725.450616,
+            "name": "utter_ask_for_numberofpeople",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9872992038726807,
+            "action_text": null
+        },
+        {
+            "event": "bot",
+            "timestamp": 1622182725.450616,
+            "metadata": {
+                "template_name": "utter_ask_for_numberofpeople"
+            },
+            "text": "cho em h\u1ecfi anh ch\u1ecb \u0111i m\u1ea5y ng\u01b0\u1eddi \u1ea1",
+            "data": {
+                "elements": null,
+                "quick_replies": null,
+                "buttons": null,
+                "attachment": null,
+                "image": null,
+                "custom": null
+            }
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182726.1031895,
+            "name": "action_listen",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9998324513435364,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182734.971452,
+            "text": "\u0111i 3 ng\u01b0\u1eddi",
+            "parse_data": {
+                "intent": {
+                    "id": -5351342676653972623,
+                    "name": "ask_for_numberofpeople",
+                    "confidence": 0.9997106790542603
+                },
+                "entities": [{
+                    "entity": "count",
+                    "start": 3,
+                    "end": 4,
+                    "confidence_entity": 0.9948984980583191,
+                    "value": "3",
+                    "extractor": "DIETClassifier"
+                }],
+                "text": "\u0111i 3 ng\u01b0\u1eddi",
+                "message_id": "3db1914b61ab48518863fb7d10ce21da",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": -5351342676653972623,
+                        "name": "ask_for_numberofpeople",
+                        "confidence": 0.9997106790542603
+                    },
+                    {
+                        "id": -3700746233692505104,
+                        "name": "goodbye",
+                        "confidence": 0.00020949766621924937
+                    },
+                    {
+                        "id": 6415907642436638173,
+                        "name": "deny",
+                        "confidence": 2.843447327904869e-05
+                    },
+                    {
+                        "id": 1533944505888794554,
+                        "name": "ask_haha",
+                        "confidence": 2.5705903681227937e-05
+                    },
+                    {
+                        "id": 3459102650096164901,
+                        "name": "mood_unhappy",
+                        "confidence": 1.128577787312679e-05
+                    },
+                    {
+                        "id": 6595916742096916130,
+                        "name": "ask_for_find_hotel",
+                        "confidence": 8.086832167464308e-06
+                    },
+                    {
+                        "id": -1011601470156862888,
+                        "name": "ask_for_room_info",
+                        "confidence": 2.637216539369547e-06
+                    },
+                    {
+                        "id": 5555596833079094622,
+                        "name": "mood_great",
+                        "confidence": 1.8260934666614048e-06
+                    },
+                    {
+                        "id": -2675763273683173537,
+                        "name": "greet",
+                        "confidence": 1.0257854228257202e-06
+                    },
+                    {
+                        "id": -8302283180516638916,
+                        "name": "affirm",
+                        "confidence": 8.104971129796468e-07
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "3db1914b61ab48518863fb7d10ce21da",
+            "metadata": {}
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182735.0457902,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182735.0457902,
+            "name": "utter_ask_for_price_hotel",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.875529944896698,
+            "action_text": null
+        },
+        {
+            "event": "bot",
+            "timestamp": 1622182735.0457902,
+            "metadata": {
+                "template_name": "utter_ask_for_price_hotel"
+            },
+            "text": "Anh ch\u1ecb mu\u1ed1n t\u00ecm kh\u00e1ch s\u1ea1n b\u00ecnh d\u00e2n hay sang tr\u1ecdng",
+            "data": {
+                "elements": null,
+                "quick_replies": null,
+                "buttons": null,
+                "attachment": null,
+                "image": null,
+                "custom": null
+            }
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182735.7610905,
+            "name": "action_listen",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9993111491203308,
+            "action_text": null
+        },
+        {
+            "event": "user",
+            "timestamp": 1622182764.3199227,
+            "text": "ch\u1ecdn lo\u1ea1i b\u00ecnh d\u00e2n",
+            "parse_data": {
+                "intent": {
+                    "id": -5076515300045452574,
+                    "name": "ask_for_price_to_find_hotel",
+                    "confidence": 0.5645977854728699
+                },
+                "entities": [{
+                        "entity": "location",
+                        "start": 5,
+                        "end": 9,
+                        "confidence_entity": 0.9830493927001953,
+                        "value": "lo\u1ea1i",
+                        "extractor": "DIETClassifier"
+                    },
+                    {
+                        "entity": "sort",
+                        "start": 10,
+                        "end": 18,
+                        "confidence_entity": 0.9932323694229126,
+                        "value": "b\u00ecnh d\u00e2n",
+                        "extractor": "DIETClassifier"
+                    }
+                ],
+                "text": "ch\u1ecdn lo\u1ea1i b\u00ecnh d\u00e2n",
+                "message_id": "f8ce2830ee794685af16687b41967b6f",
+                "metadata": {},
+                "intent_ranking": [{
+                        "id": -5076515300045452574,
+                        "name": "ask_for_price_to_find_hotel",
+                        "confidence": 0.5645977854728699
+                    },
+                    {
+                        "id": 2079026735929978387,
+                        "name": "ask_howdoing",
+                        "confidence": 0.21298952400684357
+                    },
+                    {
+                        "id": -2896433287328471382,
+                        "name": "ask_time",
+                        "confidence": 0.08787166327238083
+                    },
+                    {
+                        "id": -9197639543022866961,
+                        "name": "ask_ability",
+                        "confidence": 0.07782815396785736
+                    },
+                    {
+                        "id": 6415907642436638173,
+                        "name": "deny",
+                        "confidence": 0.02482091821730137
+                    },
+                    {
+                        "id": -4003085066981842894,
+                        "name": "ask_for_location_to_find_hotel",
+                        "confidence": 0.01278373971581459
+                    },
+                    {
+                        "id": 711580037153277927,
+                        "name": "praise",
+                        "confidence": 0.009930705651640892
+                    },
+                    {
+                        "id": 1864375331229343710,
+                        "name": "ask_for_bot_name",
+                        "confidence": 0.004154640715569258
+                    },
+                    {
+                        "id": -8632095042473597458,
+                        "name": "ask_whatismyname",
+                        "confidence": 0.0032330728136003017
+                    },
+                    {
+                        "id": -4096624326552043354,
+                        "name": "ask_for_province_to_find_hotel",
+                        "confidence": 0.0017897241050377488
+                    }
+                ],
+                "response_selector": {
+                    "all_retrieval_intents": [],
+                    "default": {
+                        "response": {
+                            "id": null,
+                            "response_templates": null,
+                            "confidence": 0.0,
+                            "intent_response_key": null,
+                            "template_name": "utter_None"
+                        },
+                        "ranking": []
+                    }
+                }
+            },
+            "input_channel": "facebook",
+            "message_id": "f8ce2830ee794685af16687b41967b6f",
+            "metadata": {}
+        },
+        {
+            "event": "slot",
+            "timestamp": 1622182764.3199227,
+            "name": "location",
+            "value": "lo\u1ea1i"
+        },
+        {
+            "event": "user_featurization",
+            "timestamp": 1622182768.469264,
+            "use_text_for_featurization": false
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182768.469264,
+            "name": "action_get_list_hotel",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9404504895210266,
+            "action_text": null
+        },
+        {
+            "event": "action",
+            "timestamp": 1622182768.531296,
+            "name": "action_listen",
+            "policy": "policy_1_TEDPolicy",
+            "confidence": 0.9994271993637085,
+            "action_text": null
+        }
+    ],
+    "name": "3846852818757768"
+}
